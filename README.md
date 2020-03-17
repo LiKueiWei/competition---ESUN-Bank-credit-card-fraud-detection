@@ -1,20 +1,10 @@
 # competition---ESUN-Bank-credit-card-fraud-detection
 Practice
 
-1  
-`2`  
-    3  
-4  
 ```
-import pandas as pd
-from pyecharts import Pie, Bar, Page
-import numpy as np
-import datetime
-from workalendar.asia import Taiwan
-from sklearn.model_selection import train_test_split 
-from sklearn.linear_model import LinearRegression
-from sklearn import metrics
-from sklearn.preprocessing import PolynomialFeatures
+This challenge was held during Sep 2019 to Nov 2019.
+I didn't join the competition but got the dataset accidently.  
+So here shows what I've tried to make the model F1-score over 0.9.  
 ```
 
 **哈哈哈**  
