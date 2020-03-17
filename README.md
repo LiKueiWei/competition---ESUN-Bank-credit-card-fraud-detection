@@ -41,8 +41,7 @@ horizonal: predicted label, vertical: true label
 |            | 0           | 1       |  
 | ---------- |:-----------:|:-------:|  
 | 0          | *1*         | 0.0003  |  
-| 1          | 0.088       | *0.91*  | true label  
-                predicted label
+| 1          | 0.088       | *0.91*  |  
 
 
 
