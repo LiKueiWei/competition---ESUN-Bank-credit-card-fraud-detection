@@ -3,13 +3,13 @@
 This challenge was held during Sep 2019 to Nov 2019.  
 I didn't join the competition but got the dataset accidently.  
 So here shows what I've tried to make the model F1-score over 0.9.  
-
+  
 # Method  
 * (1) Selected features: cano, locdt, fraud_ind, scity, mchno, loctm, etymd, ecfg, conam, csmcu, flg_3dsmk, ovrlt, contp, flbmk, hcefg, insfg, iterm, mcc, stocn, stscd  
 * (2) Created features: sus_loctm, sus_city, sus_etymd, sus_csmcu, sus_locdt, tm_3ds_ovr_ecfg, ovrlt_ecfg, sus, fraud_conam, sus_sus_loctm
 * (3) Model: Random Forest  
 * (4) Traning:Testing ratio: 78%：22%(1,191,609：330,178)  
-
+  
 # Modeling Skills
 * Fraud transaction time usually happens during 23:00 ~ 07:00.  
 * Most fraud transactions are online (with or without 3DS or overlap notes).  
@@ -17,7 +17,7 @@ So here shows what I've tried to make the model F1-score over 0.9.
 * Most fraud transaction methods are not changed over time.  
 * Most fraud transaction happends within 4 days, or suddenly happens 10 7 days after normal transactions.  
 * Transactions that have fixed city, store, currency, etc usually are fraud deals.
-
+  
 # Results  
 higest F1-score = 0.9386  
 Accuracy = 0.9989  
@@ -36,19 +36,16 @@ Average running time = 120 seconds
    
   
 
-    confusion matrix  
-    horizonal: predicted label, vertical: true label  
-    |            | 0           | 1       |  
-    | ---------- |:-----------:|:-------:|  
-    | 0          | *1*         | 0.0003  |  
-    | 1          | 0.088       | *0.91*  |  
-
-
-
+confusion matrix  
+horizonal: predicted label, vertical: true label  
+|            | 0           | 1       |  
+| ---------- |:-----------:|:-------:|  
+| 0          | *1*         | 0.0003  |  
+| 1          | 0.088       | *0.91*  |  
+  
 `The codes are shown in another jupyter notebook`  
-
-
-
+  
+  
 # Dependencies  
 Python 3.7  
 pandas  
