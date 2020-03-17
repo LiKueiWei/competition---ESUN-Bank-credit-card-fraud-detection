@@ -19,7 +19,7 @@ So here shows what I've tried to make the model F1-score over 0.9.
 * Transactions that have fixed city, store, currency, etc usually are fraud deals.
 
 # Results  
-higest F1-score = 0.9386 (Top 1%)  
+higest F1-score = 0.9386  
 Accuracy = 0.9989  
 Precision = 0.9667  
 Recall = 0.9121  
@@ -36,12 +36,12 @@ Average running time = 120 seconds
    
   
 
-confusion matrix  
-horizonal: predicted label, vertical: true label  
-|            | 0           | 1       |  
-| ---------- |:-----------:|:-------:|  
-| 0          | *1*         | 0.0003  |  
-| 1          | 0.088       | *0.91*  |  
+    confusion matrix  
+    horizonal: predicted label, vertical: true label  
+    |            | 0           | 1       |  
+    | ---------- |:-----------:|:-------:|  
+    | 0          | *1*         | 0.0003  |  
+    | 1          | 0.088       | *0.91*  |  
 
 
 
