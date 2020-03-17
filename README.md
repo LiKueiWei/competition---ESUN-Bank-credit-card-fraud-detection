@@ -10,7 +10,7 @@ So here shows what I've tried to make the model F1-score over 0.9.
 * (3) Model: Random Forest  
 * (4) Traning:Testing ratio: 78%：22%(1,191,609：330,178)  
 
-# Skills
+# Modeling Skills
 * Fraud transaction time usually happens during 23:00 ~ 07:00.  
 * Most fraud transactions are online (with or without 3DS or overlap notes).  
 * All the fraud transaction amounts are under NTD 3500.  
@@ -35,6 +35,15 @@ Average running time = 120 seconds
     weighted avg   1.00      1.00      1.00    330178
    
   
+'''
+        confusion matrix  
+             predicted label
+|True label  | 0           |    1  |
+| 0          | 1           | 0.0003|
+| 1          | 0.088       | 0.91 |
+
+
+'''
 
 `The codes are shown in another jupyter notebook`  
 
