@@ -37,7 +37,8 @@ Average running time = 120 seconds
   
 
 confusion matrix  
-|            |    predicted label    |
+|            |    predicted label    |  
+| ---------------------------------- |  
 |            | 0           | 1       |  
 | ---------- |:-----------:|:-------:|  
 | 0          | *1*         | 0.0003  |  
