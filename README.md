@@ -7,8 +7,9 @@ So here shows what I've tried to make the model F1-score over 0.9.
 # Method  
 * (1) Selected features: cano, locdt, fraud_ind, scity, mchno, loctm, etymd, ecfg, conam, csmcu, flg_3dsmk, ovrlt, contp, flbmk, hcefg, insfg, iterm, mcc, stocn, stscd  
 * (2) Created features: sus_loctm, sus_city, sus_etymd, sus_csmcu, sus_locdt, tm_3ds_ovr_ecfg, ovrlt_ecfg, sus, fraud_conam, sus_sus_loctm
-* (3) Model: Random Forest  
-* (4) Traning:Testing ratio: 78%：22%(1,191,609：330,178)  
+* (3) Use Chi-Square method to select most related features.  
+* (4) Model: Random Forest  
+* (5) Traning:Testing ratio: 78%：22%(1,191,609：330,178)  
   
 # Modeling Skills
 * Fraud transaction time usually happens during 23:00 ~ 07:00.  
