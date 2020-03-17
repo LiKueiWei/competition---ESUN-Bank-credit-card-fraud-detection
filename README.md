@@ -11,10 +11,12 @@ So here shows what I've tried to make the model F1-score over 0.9.
 * (4) Traning:Testing ratio: 78%：22%(1,191,609：330,178)  
 
 # Skills
-* Fraud transaction time usually happens during 23:00 ~ 07:00
-* 
-
-
+* Fraud transaction time usually happens during 23:00 ~ 07:00.  
+* Most fraud transactions are online (with or without 3DS or overlap notes).  
+* All the fraud transaction amounts are under NTD 3500.  
+* Most fraud transaction methods are not changed over time.  
+* Most fraud transaction happends within 4 days, or suddenly happens 10 7 days after normal transactions.  
+* Transactions that have fixed city, store, currency, etc usually are fraud deals.
 
 # Results  
 higest F1-score = 0.9386 (Top 1%)  
