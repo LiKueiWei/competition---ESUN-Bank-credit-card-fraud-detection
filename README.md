@@ -22,7 +22,7 @@ Accuracy = 0.9989
 Precision = 0.9667  
 Recall = 0.9121  
 Average running time = 120 seconds  
-
+'''
               precision    recall  f1-score   support  
   
            0       1.00      1.00      1.00    327061  
@@ -31,7 +31,7 @@ Average running time = 120 seconds
     accuracy                           1.00    330178  
    macro avg       0.98      0.96      0.97    330178  
 weighted avg       1.00      1.00      1.00    330178  
-
+'''
 
 `The codes are shown in another jupyter notebook`  
 
