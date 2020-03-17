@@ -35,15 +35,15 @@ Average running time = 120 seconds
     weighted avg   1.00      1.00      1.00    330178
    
   
-'''
+'''  
         confusion matrix  
-             predicted label
-|True label  | 0           |    1  |
-| 0          | 1           | 0.0003|
-| 1          | 0.088       | 0.91 |
+             predicted label  
+|True label  | 0           |    1  |  
+| 0          | 1           | 0.0003|  
+| 1          | 0.088       | 0.91 |  
 
 
-'''
+'''  
 
 `The codes are shown in another jupyter notebook`  
 
